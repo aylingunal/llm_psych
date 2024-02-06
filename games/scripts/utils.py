@@ -28,7 +28,19 @@ class Strategy():
         self.game_history[turn_num] = {'self':self_play,'other':other_play}
 
     def format_hf_prompt(self):
-        return LLAMA2_PROMPT.format(SYSTEM_PROMPT,USER_PROMPT.format(self.player_id,self.game_history))
+        messages = [ { "role": "system","content": SYSTEM_PROMPT},
+                     {"role": "user", "content": USER_PROMPT.format(self.player_id,self.game_history)}]
+        start_prompt = "<s>[INST] "
+        end_prompt = " [/INST]"
+        conversation = []
+        for index, message in enumerate(messages):
+            if message["role"] == "system" and index == 0:
+                conversation.append(f"<<SYS>>\n{message['content']}\n<</SYS>>\n\n")
+            elif message["role"] == "user":
+                conversation.append(message["content"].strip())
+            else:
+                conversation.append(f" [/INST] {message['content'].strip()} </s><s>[INST] ")
+        return start_prompt + "".join(conversation) + end_prompt
 
     def init_hf_model(self):
         from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -50,11 +62,8 @@ class Strategy():
         input_ids['attention_mask'] = input_ids['attention_mask'].cpu()#.cuda()#.cpu()
         num_input_tokens = input_ids['input_ids'].shape[1]
         outputs = self.model.generate(input_ids['input_ids'], attention_mask=input_ids['attention_mask'].half(),
-                                    max_new_tokens=64, do_sample=True, pad_token_id=self.tokenizer.pad_token_id)
+                                    max_new_tokens=10, do_sample=True, pad_token_id=self.tokenizer.pad_token_id)
         generation = self.tokenizer.batch_decode(outputs[:, num_input_tokens:], skip_special_tokens=True)
 
         return generation
-        
- 
-
  
