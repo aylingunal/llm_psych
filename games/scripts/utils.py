@@ -1,5 +1,4 @@
 # llama stuff
-LLAMA2_PROMPT = "<s>[INST] <<SYS>> {} <</SYS>> {} [/INST]"
 SYSTEM_PROMPT = "Imagine that you and your criminal partner have been placed under arrest and are being interrogated in separate rooms. Both you and your partner have the option to either 'Silence' or 'Confess'. If both of you are silent, you both receive a prison sentence of 1 year. If one of you confesses and the other stays silent, the partner that confesses will receive a prison sentence of 0 years while the one of the stayed silent will receive a sentence of 5 years. If both of you confess, you will both receive sentences of 3 years. Your goal is to minimize your prison sentence. Respond in one word, either 'Silence' or 'Confess'."
 USER_PROMPT = "You are Player {}, and this is the history of actions so far: {}. Will you choose 'Silence' or 'Confess' in the next round? Please answer in 1 word."
 
@@ -14,11 +13,11 @@ import transformers
 from bandit_utils import *
 
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = "2,3"
+os.environ['CUDA_VISIBLE_DEVICES'] = "1,2,3"
 
 # from huggingface_hub import login
 # login()
-
+os.environ['HF_TOKEN'] = ""
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu' # need cuda for peft
 
 class PDModel():
@@ -48,32 +47,44 @@ class PDModel():
             bnb_4bit_quant_type="nf4",
             bnb_4bit_compute_dtype=torch.bfloat16
         )
+        # if player_id_in == "1":
+        #     self.device = "cuda:0"
+        # if player_id_in == "2":
+        #     self.device = "cuda:1"
         if self.model_name == "google/gemma-7b":
             self.model = AutoModelForCausalLM.from_pretrained(self.model_name,
-                                                              quantization_config=bnb_config)
+                                                             # quantization_config=bnb_config,
+                                                             # device_map="",#.to(self.device)
+                                                              )
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         if self.model_name == "aegunal/FT_IPD_gemma7b":
             self.model = AutoModelForCausalLM.from_pretrained(self.model_name,
-                                                              quantization_config=bnb_config)
+                                                              quantization_config=bnb_config)#.to(self.device)
             self.tokenizer = AutoTokenizer.from_pretrained("google/gemma-7b")
         if self.model_name == "mistralai/Mistral-7B-v0.1":
             self.model = AutoModelForCausalLM.from_pretrained(self.model_name,
-                                                              quantization_config=bnb_config)
+                                                              quantization_config=bnb_config)#.to(self.device)
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         if self.model_name == "aegunal/FT_IPD_mistral7b":
             self.model = AutoModelForCausalLM.from_pretrained(self.model_name,
-                                                              quantization_config=bnb_config)
+                                                              quantization_config=bnb_config)#.to(self.device)
             self.tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-v0.1")
         if self.model_name == "meta-llama/Llama-2-7b-hf":
             self.model = AutoModelForCausalLM.from_pretrained(self.model_name,
-                                                              quantization_config=bnb_config)
+                                                              quantization_config=bnb_config)#.to(self.device)
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
             self.tokenizer.pad_token = self.tokenizer.eos_token
             self.model.config.pad_token_id = self.model.config.eos_token_id
         if self.model_name == "aegunal/FT_IPD_llama7b":
             self.model = AutoModelForCausalLM.from_pretrained(self.model_name,
-                                                              quantization_config=bnb_config)
+                                                              quantization_config=bnb_config)#.to(self.device)
             self.tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf")
+            self.tokenizer.pad_token = self.tokenizer.eos_token
+            self.model.config.pad_token_id = self.model.config.eos_token_id
+        if self.model_name == "tiiuae/falcon-7b":
+            self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
+            self.model = AutoModelForCausalLM.from_pretrained(self.model_name,
+                                                        quantization_config=bnb_config)
             self.tokenizer.pad_token = self.tokenizer.eos_token
             self.model.config.pad_token_id = self.model.config.eos_token_id
 
@@ -85,7 +96,9 @@ class PDModel():
         if self.model_name == "cooperate":
             pass 
         if self.model_name == "defect":
-            pass 
+            pass
+        if self.model_name == "random":
+            pass
 
     ### GENERATE ACTION ###
     
@@ -124,27 +137,61 @@ class PDModel():
                 return self.cooperate_token
 
     def next_action_hf(self):
-        # format prompt
+        # format main prompt
         prompt = SYSTEM_PROMPT + USER_PROMPT.format(self.player_id,self.game_history)
-        input_ids = self.tokenizer(prompt, return_tensors="pt")#.to("cpu")
+        input_ids = self.tokenizer([prompt], 
+                                   return_tensors="pt",
+                                   max_length=4096)#.to(self.device)
         # generate; this should work for all models
         with torch.no_grad():
             outputs = self.model.generate(**input_ids,
                                           output_scores=True,
+                                          output_logits=True,
                                           return_dict_in_generate=True,
-                                          max_length=4096,
-                                          max_new_tokens=1)
-
+                                          max_new_tokens=1,
+                                          temperature=0.75,
+                                          )
         # get idx of target toks in vocab then map to corresponding scores from last batch
         coop_tok_id = self.tokenizer.encode(self.cooperate_token.lower(),return_tensors="pt")[0][1]
         def_tok_id = self.tokenizer.encode(self.defect_token.lower(),return_tensors="pt")[0][1]
         batch_size = len(outputs.scores)
+        assert batch_size == 1, "batch size not 1"
         coop_score = outputs.scores[batch_size-1][0][coop_tok_id]
         def_score = outputs.scores[batch_size-1][0][def_tok_id]
-        # return higher score
-        if coop_score > def_score:
-            return "Silence"
-        return "Confess"
+        action = "Silence" if coop_score > def_score else "Confess"
+
+        # format first-level theory of mind prompt
+        upd_user_prompt = "You are Player {}, and this is the history of actions so far: {}. Do you think your opponent will play 'Silence' or 'Confess'?."
+        prompt = SYSTEM_PROMPT + upd_user_prompt.format(self.player_id,self.game_history)
+        input_ids = self.tokenizer([prompt], 
+                                   return_tensors="pt",
+                                   max_length=4096)#.to(self.device)
+        # generate; this should work for all models
+        with torch.no_grad():
+            outputs = self.model.generate(**input_ids,
+                                          output_scores=True,
+                                          output_logits=True,
+                                          return_dict_in_generate=True,
+                                          max_new_tokens=1,
+                                          temperature=0.75,
+                                          )
+        # get idx of target toks in vocab then map to corresponding scores from last batch
+        coop_tok_id = self.tokenizer.encode(self.cooperate_token.lower(),return_tensors="pt")[0][1]
+        def_tok_id = self.tokenizer.encode(self.defect_token.lower(),return_tensors="pt")[0][1]
+        batch_size = len(outputs.scores)
+        assert batch_size == 1, "batch size not 1"
+        first_lvl_coop_score = outputs.scores[batch_size-1][0][coop_tok_id]
+        first_lvl_def_score = outputs.scores[batch_size-1][0][def_tok_id]
+        first_lvl_action = "Silence" if coop_score > def_score else "Confess"
+
+        # record round info
+        round_info_dict = {'action':action,
+                           'coop_score':coop_score,
+                           'def_score':def_score,
+                           'first_lvl_action':first_lvl_action,
+                           'first_lvl_coop_score':first_lvl_coop_score,
+                           'first_lvl_def_score':first_lvl_def_score}
+        return round_info_dict
 
     def generate_mab(self):
         generation = 'Silence' if self.model.choose_action() == 0 else 'Confess'
@@ -165,7 +212,8 @@ def print_all_models():
                   "mistralai/Mistral-7B-v0.1",
                   "aegunal/FT_IPD_mistral7b",
                   "meta-llama/Llama-2-7b-hf",
-                  "aegunal/FT_IPD_llama7b"]
+                  "aegunal/FT_IPD_llama7b",
+                  "tiiuae/falcon-7b"]
     
     for model_name in all_models:
         print(model_name)
@@ -196,4 +244,7 @@ def print_all_models():
 
 # print(test_model_1.next_action_hf())
 # print(test_model_2.next_action_hf())
+
+
+
 
