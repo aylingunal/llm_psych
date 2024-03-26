@@ -13,7 +13,7 @@ import transformers
 from bandit_utils import *
 
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = "1,2,3"
+os.environ['CUDA_VISIBLE_DEVICES'] = "3"
 
 # from huggingface_hub import login
 # login()
@@ -47,10 +47,7 @@ class PDModel():
             bnb_4bit_quant_type="nf4",
             bnb_4bit_compute_dtype=torch.bfloat16
         )
-        # if player_id_in == "1":
-        #     self.device = "cuda:0"
-        # if player_id_in == "2":
-        #     self.device = "cuda:1"
+
         if self.model_name == "google/gemma-7b":
             self.model = AutoModelForCausalLM.from_pretrained(self.model_name,
                                                              # quantization_config=bnb_config,
@@ -139,6 +136,28 @@ class PDModel():
     def next_action_hf(self):
         # format main prompt
         prompt = SYSTEM_PROMPT + USER_PROMPT.format(self.player_id,self.game_history)
+        main_info = self.generate_hf(prompt)
+        # format first-level theory of mind prompt
+        upd_user_prompt = "You are Player {}, and this is the history of actions so far: {}. Do you think your opponent will play 'Silence' or 'Confess'?."
+        prompt = SYSTEM_PROMPT + upd_user_prompt.format(self.player_id,self.game_history)
+        secondary_info = self.generate_hf(prompt)
+
+        return main_info, secondary_info
+
+    def generate_mab(self):
+        generation = 'Silence' if self.model.choose_action() == 0 else 'Confess'
+        return generation
+
+    ### MISC ###
+
+    def add_to_hist(self, turn_num, self_play, other_play):
+        self.game_history[turn_num] = {'self':self_play,'other':other_play}
+        # update bandit strategy if nec
+        if self.model_name == 'mab':
+            reward = self.model.get_reward(self_play,other_play)
+            self.model.update_rewards((0 if self_play=='Silence' else 1),reward)
+
+    def generate_hf(self, prompt):
         input_ids = self.tokenizer([prompt], 
                                    return_tensors="pt",
                                    max_length=4096)#.to(self.device)
@@ -159,52 +178,17 @@ class PDModel():
         coop_score = outputs.scores[batch_size-1][0][coop_tok_id]
         def_score = outputs.scores[batch_size-1][0][def_tok_id]
         action = "Silence" if coop_score > def_score else "Confess"
+        # same deal but now w/ logits
+        coop_logits = outputs.logits[batch_size-1][0][coop_tok_id]
+        def_logits = outputs.logits[batch_size-1][0][def_tok_id]
+        action_logits = "Silence" if coop_score > def_score else "Confess"
 
-        # format first-level theory of mind prompt
-        upd_user_prompt = "You are Player {}, and this is the history of actions so far: {}. Do you think your opponent will play 'Silence' or 'Confess'?."
-        prompt = SYSTEM_PROMPT + upd_user_prompt.format(self.player_id,self.game_history)
-        input_ids = self.tokenizer([prompt], 
-                                   return_tensors="pt",
-                                   max_length=4096)#.to(self.device)
-        # generate; this should work for all models
-        with torch.no_grad():
-            outputs = self.model.generate(**input_ids,
-                                          output_scores=True,
-                                          output_logits=True,
-                                          return_dict_in_generate=True,
-                                          max_new_tokens=1,
-                                          temperature=0.75,
-                                          )
-        # get idx of target toks in vocab then map to corresponding scores from last batch
-        coop_tok_id = self.tokenizer.encode(self.cooperate_token.lower(),return_tensors="pt")[0][1]
-        def_tok_id = self.tokenizer.encode(self.defect_token.lower(),return_tensors="pt")[0][1]
-        batch_size = len(outputs.scores)
-        assert batch_size == 1, "batch size not 1"
-        first_lvl_coop_score = outputs.scores[batch_size-1][0][coop_tok_id]
-        first_lvl_def_score = outputs.scores[batch_size-1][0][def_tok_id]
-        first_lvl_action = "Silence" if coop_score > def_score else "Confess"
-
-        # record round info
-        round_info_dict = {'action':action,
-                           'coop_score':coop_score,
-                           'def_score':def_score,
-                           'first_lvl_action':first_lvl_action,
-                           'first_lvl_coop_score':first_lvl_coop_score,
-                           'first_lvl_def_score':first_lvl_def_score}
-        return round_info_dict
-
-    def generate_mab(self):
-        generation = 'Silence' if self.model.choose_action() == 0 else 'Confess'
-        return generation
-
-    ### MISC ###
-
-    def add_to_hist(self, turn_num, self_play, other_play):
-        self.game_history[turn_num] = {'self':self_play,'other':other_play}
-        # update bandit strategy if nec
-        if self.model_name == 'mab':
-            reward = self.model.get_reward(self_play,other_play)
-            self.model.update_rewards((0 if self_play=='Silence' else 1),reward)
+        return {'raw_scores':{'action':action,
+                              'coop_score':coop_score,
+                              'def_score':def_score},
+                'raw_logits':{'action':action_logits,
+                              'coop_score':coop_logits,
+                              'def_score':def_logits}}
 
 def print_all_models():
     all_models = ["google/gemma-7b",
