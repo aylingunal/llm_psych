@@ -1,0 +1,5222 @@
+{
+    "0": {
+        "0": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 17.708332061767578,
+                    "def_score": 16.0546875
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -1.6133091449737549,
+                    "def_score": -2.605496644973755
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "1": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 18.93229103088379,
+                    "def_score": 19.427082061767578
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.469562530517578,
+                    "def_score": -2.172687530517578
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "2": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.364583015441895,
+                    "def_score": 16.3671875
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.927863597869873,
+                    "def_score": -2.326301097869873
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "3": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.239583015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1461873054504395,
+                    "def_score": -3.3336873054504395
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "4": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.109374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1751275062561035,
+                    "def_score": -3.3548150062561035
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "5": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.304686546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9361395835876465,
+                    "def_score": -3.3736395835876465
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "6": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.779947280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9459316730499268,
+                    "def_score": -3.2623379230499268
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "7": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.701822280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.270735740661621,
+                    "def_score": -3.352766752243042
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "8": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.838541030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.04381799697876,
+                    "def_score": -3.2899117469787598
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "9": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.799478530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.963685989379883,
+                    "def_score": -3.268373489379883
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "10": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 12.115884780883789,
+                    "def_score": 13.307291030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.67318058013916,
+                    "def_score": -2.95833683013916
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "11": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.072916030883789,
+                    "def_score": 14.257811546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.303457021713257,
+                    "def_score": -2.592519521713257
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "12": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.372395515441895,
+                    "def_score": 14.231770515441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.1520872116088867,
+                    "def_score": -2.6364622116088867
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "13": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.528645515441895,
+                    "def_score": 14.609374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.10245943069458,
+                    "def_score": -2.45402193069458
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "14": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.088541030883789,
+                    "def_score": 14.765624046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.8370933532714844,
+                    "def_score": -2.4308433532714844
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "15": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.039061546325684,
+                    "def_score": 15.611978530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.66576886177063,
+                    "def_score": -2.32201886177063
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "16": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.960936546325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.6858885288238525,
+                    "def_score": -2.4905760288238525
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "17": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.234374046325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.458467721939087,
+                    "def_score": -2.427217721939087
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "18": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 15.729166030883789,
+                    "def_score": 15.481770515441895
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.3963873386383057,
+                    "def_score": -2.5448248386383057
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "19": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 14.830728530883789,
+                    "def_score": 14.804686546325684
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.639719009399414,
+                    "def_score": -2.655344009399414
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        }
+    },
+    "1": {
+        "0": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 17.708332061767578,
+                    "def_score": 16.0546875
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -1.6133091449737549,
+                    "def_score": -2.605496644973755
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "1": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 18.93229103088379,
+                    "def_score": 19.427082061767578
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.469562530517578,
+                    "def_score": -2.172687530517578
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "2": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.364583015441895,
+                    "def_score": 16.3671875
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.927863597869873,
+                    "def_score": -2.326301097869873
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "3": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.239583015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1461873054504395,
+                    "def_score": -3.3336873054504395
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "4": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.109374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1751275062561035,
+                    "def_score": -3.3548150062561035
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "5": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.304686546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9361395835876465,
+                    "def_score": -3.3736395835876465
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "6": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.779947280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9459316730499268,
+                    "def_score": -3.2623379230499268
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "7": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.701822280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.270735740661621,
+                    "def_score": -3.352766752243042
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "8": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.838541030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.04381799697876,
+                    "def_score": -3.2899117469787598
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "9": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.799478530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.963685989379883,
+                    "def_score": -3.268373489379883
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "10": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 12.115884780883789,
+                    "def_score": 13.307291030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.67318058013916,
+                    "def_score": -2.95833683013916
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "11": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.072916030883789,
+                    "def_score": 14.257811546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.303457021713257,
+                    "def_score": -2.592519521713257
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "12": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.372395515441895,
+                    "def_score": 14.231770515441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.1520872116088867,
+                    "def_score": -2.6364622116088867
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "13": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.528645515441895,
+                    "def_score": 14.609374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.10245943069458,
+                    "def_score": -2.45402193069458
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "14": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.088541030883789,
+                    "def_score": 14.765624046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.8370933532714844,
+                    "def_score": -2.4308433532714844
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "15": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.039061546325684,
+                    "def_score": 15.611978530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.66576886177063,
+                    "def_score": -2.32201886177063
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "16": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.960936546325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.6858885288238525,
+                    "def_score": -2.4905760288238525
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "17": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.234374046325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.458467721939087,
+                    "def_score": -2.427217721939087
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "18": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 15.729166030883789,
+                    "def_score": 15.481770515441895
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.3963873386383057,
+                    "def_score": -2.5448248386383057
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "19": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 14.830728530883789,
+                    "def_score": 14.804686546325684
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.639719009399414,
+                    "def_score": -2.655344009399414
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        }
+    },
+    "2": {
+        "0": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 17.708332061767578,
+                    "def_score": 16.0546875
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -1.6133091449737549,
+                    "def_score": -2.605496644973755
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "1": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 18.93229103088379,
+                    "def_score": 19.427082061767578
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.469562530517578,
+                    "def_score": -2.172687530517578
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "2": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.364583015441895,
+                    "def_score": 16.3671875
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.927863597869873,
+                    "def_score": -2.326301097869873
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "3": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.239583015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1461873054504395,
+                    "def_score": -3.3336873054504395
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "4": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.109374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1751275062561035,
+                    "def_score": -3.3548150062561035
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "5": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.304686546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9361395835876465,
+                    "def_score": -3.3736395835876465
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "6": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.779947280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9459316730499268,
+                    "def_score": -3.2623379230499268
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "7": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.701822280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.270735740661621,
+                    "def_score": -3.352766752243042
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "8": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.838541030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.04381799697876,
+                    "def_score": -3.2899117469787598
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "9": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.799478530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.963685989379883,
+                    "def_score": -3.268373489379883
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "10": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 12.115884780883789,
+                    "def_score": 13.307291030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.67318058013916,
+                    "def_score": -2.95833683013916
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "11": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.072916030883789,
+                    "def_score": 14.257811546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.303457021713257,
+                    "def_score": -2.592519521713257
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "12": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.372395515441895,
+                    "def_score": 14.231770515441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.1520872116088867,
+                    "def_score": -2.6364622116088867
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "13": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.528645515441895,
+                    "def_score": 14.609374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.10245943069458,
+                    "def_score": -2.45402193069458
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "14": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.088541030883789,
+                    "def_score": 14.765624046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.8370933532714844,
+                    "def_score": -2.4308433532714844
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "15": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.039061546325684,
+                    "def_score": 15.611978530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.66576886177063,
+                    "def_score": -2.32201886177063
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "16": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.960936546325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.6858885288238525,
+                    "def_score": -2.4905760288238525
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "17": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.234374046325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.458467721939087,
+                    "def_score": -2.427217721939087
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "18": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 15.729166030883789,
+                    "def_score": 15.481770515441895
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.3963873386383057,
+                    "def_score": -2.5448248386383057
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "19": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 14.830728530883789,
+                    "def_score": 14.804686546325684
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.639719009399414,
+                    "def_score": -2.655344009399414
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        }
+    },
+    "3": {
+        "0": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 17.708332061767578,
+                    "def_score": 16.0546875
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -1.6133091449737549,
+                    "def_score": -2.605496644973755
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "1": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 18.93229103088379,
+                    "def_score": 19.427082061767578
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.469562530517578,
+                    "def_score": -2.172687530517578
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "2": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.364583015441895,
+                    "def_score": 16.3671875
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.927863597869873,
+                    "def_score": -2.326301097869873
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "3": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.239583015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1461873054504395,
+                    "def_score": -3.3336873054504395
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "4": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.109374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1751275062561035,
+                    "def_score": -3.3548150062561035
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "5": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.304686546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9361395835876465,
+                    "def_score": -3.3736395835876465
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "6": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.779947280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9459316730499268,
+                    "def_score": -3.2623379230499268
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "7": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.701822280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.270735740661621,
+                    "def_score": -3.352766752243042
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "8": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.838541030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.04381799697876,
+                    "def_score": -3.2899117469787598
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "9": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.799478530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.963685989379883,
+                    "def_score": -3.268373489379883
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "10": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 12.115884780883789,
+                    "def_score": 13.307291030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.67318058013916,
+                    "def_score": -2.95833683013916
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "11": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.072916030883789,
+                    "def_score": 14.257811546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.303457021713257,
+                    "def_score": -2.592519521713257
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "12": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.372395515441895,
+                    "def_score": 14.231770515441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.1520872116088867,
+                    "def_score": -2.6364622116088867
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "13": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.528645515441895,
+                    "def_score": 14.609374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.10245943069458,
+                    "def_score": -2.45402193069458
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "14": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.088541030883789,
+                    "def_score": 14.765624046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.8370933532714844,
+                    "def_score": -2.4308433532714844
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "15": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.039061546325684,
+                    "def_score": 15.611978530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.66576886177063,
+                    "def_score": -2.32201886177063
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "16": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.960936546325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.6858885288238525,
+                    "def_score": -2.4905760288238525
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "17": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.234374046325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.458467721939087,
+                    "def_score": -2.427217721939087
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "18": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 15.729166030883789,
+                    "def_score": 15.481770515441895
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.3963873386383057,
+                    "def_score": -2.5448248386383057
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "19": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 14.830728530883789,
+                    "def_score": 14.804686546325684
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.639719009399414,
+                    "def_score": -2.655344009399414
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        }
+    },
+    "4": {
+        "0": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 17.708332061767578,
+                    "def_score": 16.0546875
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -1.6133091449737549,
+                    "def_score": -2.605496644973755
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "1": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 18.93229103088379,
+                    "def_score": 19.427082061767578
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.469562530517578,
+                    "def_score": -2.172687530517578
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "2": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.364583015441895,
+                    "def_score": 16.3671875
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.927863597869873,
+                    "def_score": -2.326301097869873
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "3": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.239583015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1461873054504395,
+                    "def_score": -3.3336873054504395
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "4": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.109374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1751275062561035,
+                    "def_score": -3.3548150062561035
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "5": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.304686546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9361395835876465,
+                    "def_score": -3.3736395835876465
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "6": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.779947280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9459316730499268,
+                    "def_score": -3.2623379230499268
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "7": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.701822280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.270735740661621,
+                    "def_score": -3.352766752243042
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "8": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.838541030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.04381799697876,
+                    "def_score": -3.2899117469787598
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "9": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.799478530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.963685989379883,
+                    "def_score": -3.268373489379883
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "10": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 12.115884780883789,
+                    "def_score": 13.307291030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.67318058013916,
+                    "def_score": -2.95833683013916
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "11": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.072916030883789,
+                    "def_score": 14.257811546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.303457021713257,
+                    "def_score": -2.592519521713257
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "12": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.372395515441895,
+                    "def_score": 14.231770515441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.1520872116088867,
+                    "def_score": -2.6364622116088867
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "13": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.528645515441895,
+                    "def_score": 14.609374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.10245943069458,
+                    "def_score": -2.45402193069458
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "14": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.088541030883789,
+                    "def_score": 14.765624046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.8370933532714844,
+                    "def_score": -2.4308433532714844
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "15": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.039061546325684,
+                    "def_score": 15.611978530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.66576886177063,
+                    "def_score": -2.32201886177063
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "16": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.960936546325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.6858885288238525,
+                    "def_score": -2.4905760288238525
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "17": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.234374046325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.458467721939087,
+                    "def_score": -2.427217721939087
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "18": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 15.729166030883789,
+                    "def_score": 15.481770515441895
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.3963873386383057,
+                    "def_score": -2.5448248386383057
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "19": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 14.830728530883789,
+                    "def_score": 14.804686546325684
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.639719009399414,
+                    "def_score": -2.655344009399414
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        }
+    },
+    "5": {
+        "0": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 17.708332061767578,
+                    "def_score": 16.0546875
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -1.6133091449737549,
+                    "def_score": -2.605496644973755
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "1": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 18.93229103088379,
+                    "def_score": 19.427082061767578
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.469562530517578,
+                    "def_score": -2.172687530517578
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "2": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.364583015441895,
+                    "def_score": 16.3671875
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.927863597869873,
+                    "def_score": -2.326301097869873
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "3": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.239583015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1461873054504395,
+                    "def_score": -3.3336873054504395
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "4": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.109374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1751275062561035,
+                    "def_score": -3.3548150062561035
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "5": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.304686546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9361395835876465,
+                    "def_score": -3.3736395835876465
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "6": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.779947280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9459316730499268,
+                    "def_score": -3.2623379230499268
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "7": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.701822280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.270735740661621,
+                    "def_score": -3.352766752243042
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "8": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.838541030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.04381799697876,
+                    "def_score": -3.2899117469787598
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "9": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.799478530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.963685989379883,
+                    "def_score": -3.268373489379883
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "10": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 12.115884780883789,
+                    "def_score": 13.307291030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.67318058013916,
+                    "def_score": -2.95833683013916
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "11": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.072916030883789,
+                    "def_score": 14.257811546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.303457021713257,
+                    "def_score": -2.592519521713257
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "12": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.372395515441895,
+                    "def_score": 14.231770515441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.1520872116088867,
+                    "def_score": -2.6364622116088867
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "13": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.528645515441895,
+                    "def_score": 14.609374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.10245943069458,
+                    "def_score": -2.45402193069458
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "14": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.088541030883789,
+                    "def_score": 14.765624046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.8370933532714844,
+                    "def_score": -2.4308433532714844
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "15": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.039061546325684,
+                    "def_score": 15.611978530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.66576886177063,
+                    "def_score": -2.32201886177063
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "16": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.960936546325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.6858885288238525,
+                    "def_score": -2.4905760288238525
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "17": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.234374046325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.458467721939087,
+                    "def_score": -2.427217721939087
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "18": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 15.729166030883789,
+                    "def_score": 15.481770515441895
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.3963873386383057,
+                    "def_score": -2.5448248386383057
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "19": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 14.830728530883789,
+                    "def_score": 14.804686546325684
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.639719009399414,
+                    "def_score": -2.655344009399414
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        }
+    },
+    "6": {
+        "0": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 17.708332061767578,
+                    "def_score": 16.0546875
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -1.6133091449737549,
+                    "def_score": -2.605496644973755
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "1": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 18.93229103088379,
+                    "def_score": 19.427082061767578
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.469562530517578,
+                    "def_score": -2.172687530517578
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "2": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.364583015441895,
+                    "def_score": 16.3671875
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.927863597869873,
+                    "def_score": -2.326301097869873
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "3": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.239583015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1461873054504395,
+                    "def_score": -3.3336873054504395
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "4": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.109374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1751275062561035,
+                    "def_score": -3.3548150062561035
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "5": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.304686546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9361395835876465,
+                    "def_score": -3.3736395835876465
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "6": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.779947280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9459316730499268,
+                    "def_score": -3.2623379230499268
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "7": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.701822280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.270735740661621,
+                    "def_score": -3.352766752243042
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "8": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.838541030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.04381799697876,
+                    "def_score": -3.2899117469787598
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "9": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.799478530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.963685989379883,
+                    "def_score": -3.268373489379883
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "10": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 12.115884780883789,
+                    "def_score": 13.307291030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.67318058013916,
+                    "def_score": -2.95833683013916
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "11": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.072916030883789,
+                    "def_score": 14.257811546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.303457021713257,
+                    "def_score": -2.592519521713257
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "12": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.372395515441895,
+                    "def_score": 14.231770515441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.1520872116088867,
+                    "def_score": -2.6364622116088867
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "13": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.528645515441895,
+                    "def_score": 14.609374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.10245943069458,
+                    "def_score": -2.45402193069458
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "14": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.088541030883789,
+                    "def_score": 14.765624046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.8370933532714844,
+                    "def_score": -2.4308433532714844
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "15": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.039061546325684,
+                    "def_score": 15.611978530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.66576886177063,
+                    "def_score": -2.32201886177063
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "16": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.960936546325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.6858885288238525,
+                    "def_score": -2.4905760288238525
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "17": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.234374046325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.458467721939087,
+                    "def_score": -2.427217721939087
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "18": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 15.729166030883789,
+                    "def_score": 15.481770515441895
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.3963873386383057,
+                    "def_score": -2.5448248386383057
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "19": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 14.830728530883789,
+                    "def_score": 14.804686546325684
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.639719009399414,
+                    "def_score": -2.655344009399414
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        }
+    },
+    "7": {
+        "0": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 17.708332061767578,
+                    "def_score": 16.0546875
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -1.6133091449737549,
+                    "def_score": -2.605496644973755
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "1": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 18.93229103088379,
+                    "def_score": 19.427082061767578
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.469562530517578,
+                    "def_score": -2.172687530517578
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "2": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.364583015441895,
+                    "def_score": 16.3671875
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.927863597869873,
+                    "def_score": -2.326301097869873
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "3": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.239583015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1461873054504395,
+                    "def_score": -3.3336873054504395
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "4": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.109374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1751275062561035,
+                    "def_score": -3.3548150062561035
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "5": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.304686546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9361395835876465,
+                    "def_score": -3.3736395835876465
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "6": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.779947280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9459316730499268,
+                    "def_score": -3.2623379230499268
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "7": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.701822280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.270735740661621,
+                    "def_score": -3.352766752243042
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "8": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.838541030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.04381799697876,
+                    "def_score": -3.2899117469787598
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "9": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.799478530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.963685989379883,
+                    "def_score": -3.268373489379883
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "10": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 12.115884780883789,
+                    "def_score": 13.307291030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.67318058013916,
+                    "def_score": -2.95833683013916
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "11": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.072916030883789,
+                    "def_score": 14.257811546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.303457021713257,
+                    "def_score": -2.592519521713257
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "12": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.372395515441895,
+                    "def_score": 14.231770515441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.1520872116088867,
+                    "def_score": -2.6364622116088867
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "13": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.528645515441895,
+                    "def_score": 14.609374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.10245943069458,
+                    "def_score": -2.45402193069458
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "14": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.088541030883789,
+                    "def_score": 14.765624046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.8370933532714844,
+                    "def_score": -2.4308433532714844
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "15": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.039061546325684,
+                    "def_score": 15.611978530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.66576886177063,
+                    "def_score": -2.32201886177063
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "16": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.960936546325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.6858885288238525,
+                    "def_score": -2.4905760288238525
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "17": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.234374046325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.458467721939087,
+                    "def_score": -2.427217721939087
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "18": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 15.729166030883789,
+                    "def_score": 15.481770515441895
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.3963873386383057,
+                    "def_score": -2.5448248386383057
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "19": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 14.830728530883789,
+                    "def_score": 14.804686546325684
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.639719009399414,
+                    "def_score": -2.655344009399414
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        }
+    },
+    "8": {
+        "0": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 17.708332061767578,
+                    "def_score": 16.0546875
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -1.6133091449737549,
+                    "def_score": -2.605496644973755
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "1": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 18.93229103088379,
+                    "def_score": 19.427082061767578
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.469562530517578,
+                    "def_score": -2.172687530517578
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "2": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.364583015441895,
+                    "def_score": 16.3671875
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.927863597869873,
+                    "def_score": -2.326301097869873
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "3": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.239583015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1461873054504395,
+                    "def_score": -3.3336873054504395
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "4": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.109374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1751275062561035,
+                    "def_score": -3.3548150062561035
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "5": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.304686546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9361395835876465,
+                    "def_score": -3.3736395835876465
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "6": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.779947280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9459316730499268,
+                    "def_score": -3.2623379230499268
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "7": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.701822280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.270735740661621,
+                    "def_score": -3.352766752243042
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "8": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.838541030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.04381799697876,
+                    "def_score": -3.2899117469787598
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "9": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.799478530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.963685989379883,
+                    "def_score": -3.268373489379883
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "10": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 12.115884780883789,
+                    "def_score": 13.307291030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.67318058013916,
+                    "def_score": -2.95833683013916
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "11": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.072916030883789,
+                    "def_score": 14.257811546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.303457021713257,
+                    "def_score": -2.592519521713257
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "12": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.372395515441895,
+                    "def_score": 14.231770515441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.1520872116088867,
+                    "def_score": -2.6364622116088867
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "13": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.528645515441895,
+                    "def_score": 14.609374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.10245943069458,
+                    "def_score": -2.45402193069458
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "14": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.088541030883789,
+                    "def_score": 14.765624046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.8370933532714844,
+                    "def_score": -2.4308433532714844
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "15": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.039061546325684,
+                    "def_score": 15.611978530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.66576886177063,
+                    "def_score": -2.32201886177063
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "16": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.960936546325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.6858885288238525,
+                    "def_score": -2.4905760288238525
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "17": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.234374046325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.458467721939087,
+                    "def_score": -2.427217721939087
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "18": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 15.729166030883789,
+                    "def_score": 15.481770515441895
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.3963873386383057,
+                    "def_score": -2.5448248386383057
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "19": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 14.830728530883789,
+                    "def_score": 14.804686546325684
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.639719009399414,
+                    "def_score": -2.655344009399414
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        }
+    },
+    "9": {
+        "0": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 17.708332061767578,
+                    "def_score": 16.0546875
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -1.6133091449737549,
+                    "def_score": -2.605496644973755
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "1": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 18.93229103088379,
+                    "def_score": 19.427082061767578
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.469562530517578,
+                    "def_score": -2.172687530517578
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "2": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.364583015441895,
+                    "def_score": 16.3671875
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.927863597869873,
+                    "def_score": -2.326301097869873
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "3": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.239583015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1461873054504395,
+                    "def_score": -3.3336873054504395
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "4": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.109374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.1751275062561035,
+                    "def_score": -3.3548150062561035
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "5": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.304686546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9361395835876465,
+                    "def_score": -3.3736395835876465
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "6": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.779947280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.9459316730499268,
+                    "def_score": -3.2623379230499268
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "7": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.701822280883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.270735740661621,
+                    "def_score": -3.352766752243042
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "8": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.838541030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -4.04381799697876,
+                    "def_score": -3.2899117469787598
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "9": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": -Infinity,
+                    "def_score": 12.799478530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.963685989379883,
+                    "def_score": -3.268373489379883
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "10": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 12.115884780883789,
+                    "def_score": 13.307291030883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.67318058013916,
+                    "def_score": -2.95833683013916
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "11": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.072916030883789,
+                    "def_score": 14.257811546325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.303457021713257,
+                    "def_score": -2.592519521713257
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "12": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.372395515441895,
+                    "def_score": 14.231770515441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.1520872116088867,
+                    "def_score": -2.6364622116088867
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "13": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 13.528645515441895,
+                    "def_score": 14.609374046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -3.10245943069458,
+                    "def_score": -2.45402193069458
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "14": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.088541030883789,
+                    "def_score": 14.765624046325684
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.8370933532714844,
+                    "def_score": -2.4308433532714844
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "15": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.039061546325684,
+                    "def_score": 15.611978530883789
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.66576886177063,
+                    "def_score": -2.32201886177063
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "16": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 14.960936546325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.6858885288238525,
+                    "def_score": -2.4905760288238525
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "17": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Defect",
+                    "coop_score": 15.234374046325684,
+                    "def_score": 15.286458015441895
+                },
+                "raw_logits": {
+                    "action": "Defect",
+                    "coop_score": -2.458467721939087,
+                    "def_score": -2.427217721939087
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "18": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 15.729166030883789,
+                    "def_score": 15.481770515441895
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.3963873386383057,
+                    "def_score": -2.5448248386383057
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        },
+        "19": {
+            "p1": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": 14.830728530883789,
+                    "def_score": 14.804686546325684
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": -2.639719009399414,
+                    "def_score": -2.655344009399414
+                }
+            },
+            "p2": {
+                "raw_scores": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                },
+                "raw_logits": {
+                    "action": "Cooperate",
+                    "coop_score": null,
+                    "def_score": null
+                }
+            }
+        }
+    }
+}
